@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.img-curve {
+    border-radius: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.clear {
+    clear: both;
+    float: none;
+}
+
+a {
+    color: #ff7979;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eb4d4b;
+}
+
+.btn {
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #ff7979;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #eb4d4b;
+    color: #fff;
+}
+
+h2 {
+    color: #2f3542;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+.float-container {
+    position: relative;
+}
+
+.float-text {
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+
+/* CSS for navbar section */
+
+.logo {
+    width: 10%;
+    float: left;
+}
+
+.menu {
+    line-height: 60px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+/* CSS for food search section */
+.food-search {
+    background: url(../img/bg.jpg) center /cover no-repeat;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"] {
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.food-menu-text {
+    font-size: 24px;
+    margin-left: 46%;
+}
+
+/* CSS for Categories */
+
+.categories {
+    padding: 4% 0;
+}
+
+.box-3 {
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+/* CSS for Food menu */
+
+.food-menu {
+    background-color: #ececec;
+    padding: 4% 0;
+}
+
+.food-menu-box {
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: #fff;
+}
+
+.food-menu-img {
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc {
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price {
+    font-size: 1.2rem;
+    margin: 2% 0;
+    font-weight: bold;
+}
+
+.food-detail {
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social */
+.contact-icon {
+    padding: 8px;
+}
+
+
+/* CSS for page Categories */
+.categories2 {
+    padding: 4% 0 1%;
+}
+
+/* CSS for page Foods */
+
+
+/* CSS for page Order */
+.food-box-order {
+    width: 43%;
+    margin: 2% auto;
+    padding: 1%;
+    border: 1px solid rgba(255,255,255,0.6);
+    float: none;
+}
+
+.order-title {
+    font-size: 20px;
+    
+}
+
+.order-price {
+    font-weight: unset;
+}
+
+.order-box {
+    border-radius: 5px;
+}
+
+.order-text {
+    font-weight: bold;
+}
+
+.input-number {
+    width: 96%;
+    border-radius: 5px;
+    border: none;
+    padding: 1%;
+    font-size: 1rem;
+    margin-top: 1%;
+}
+
+.input-text {
+    width: 94%;
+    padding: 1%;
+    margin: 1% 0 4%;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+}
+
+.input-addr {
+    padding-bottom: 38%;
+}
+
+/* CSS for mobile or smaller screen */
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    .logo {
+        width: 80%;
+        float: none;
+        margin:1% auto;
+    }
+
+    .menu ul {
+        text-align: center;
+    }
+
+    .menu ul li {
+        padding: 0.4rem;
+    }
+
+    .food-search input[type="search"] {
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn {
+        width: 91%;
+        padding: 2%;
+    }
+    
+    .food-search {
+        padding: 10% 0;
+    }
+
+    .container {
+        padding: 12% 0;
+    }
+
+    .box-3 {
+        width: 95%;
+        margin: 4% 0 4% 3%;
+    }
+
+
+    .food-menu-box {
+        float: none;
+        width: 90%;
+        padding: 5%;
+        margin: 5% 0;
+    }
+
+    .food-menu-text {
+        margin-left: 30%;
+    }
+
+    .footer {
+        margin: -20%;
+    }
+    
+}
+
